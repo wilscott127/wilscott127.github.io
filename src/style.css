@@ -5,15 +5,16 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+/*
 a{
     text-decoration: none;
 }
-
+*/
 body {
     
     font-family: Arial, Helvetica, sans-serif;
 }
+
 
 .section {
     background-color: lightgray;
@@ -64,8 +65,10 @@ body {
 }
 
 .image {
-    display: grid;
-    place-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 50px;
 }
 
 .image img {
@@ -114,4 +117,40 @@ ul {
 
 li {
     margin: 15px 5px;
+}
+
+.about {
+    background-color: lightgray;
+    text-align: center;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+}
+
+.rows {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.row-box1 {
+    width: 20%;
+    height: 150px;
+}
+
+.row-box2 {
+    width: 80%;
+    height: 150px;
+
+}
+
+.link1 {
+
+}
+
+.image1 {
+    height: 150px;
+    
 }
